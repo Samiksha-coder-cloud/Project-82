@@ -39,11 +39,10 @@ function myMouseMove(e) {
 
         console.log("Last Position of x and y Coordinates= ");
         console.log("x = " + lastPosition_X + "y = " + lastPosition_Y);
-        ctx.moveTo(lastPosition_X,lastPosition_Y);
-
+        
         console.log("Current Position of x and y Coordinates= ");
         console.log("x = " + currentPosition_X + "y = " + currentPosition_Y);
-        ctx.lineTo(currentPosition_X,currentPosition_Y);
+        
         ctx.stroke();
 
         lastPosition_X=currentPosition_X;
